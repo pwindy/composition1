@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html onselectstart='return false'><!-- 点击时，解决文字被选中的现象 -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!--当前页面的三要素-->
+    <title>Production_Part1</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- 引入css样式 -->
+    <link type="text/css" rel="stylesheet" href="css/Composition_Part1.css" >
+
+
+
+</head>
+
+<body>
+    <div id="wrap">
+
+        <!-- pro1 点击图片自动替换 -->
+        <div class="con pro1">
+            <p class="tit">一：点击图片自动替换</p>
+            <img src="images/1-1.jpg" alt="">
+        </div>
+
+        <!-- pro2 文字放大缩小 -->
+        <div class="con pro2">
+            <p class='tit'>二：文字放大缩小</p>
+            <div class='box'>
+                <span class='box1'>+</span>
+                <span class='box2'>-</span>
+                <p class="text">
+                9月12日，苹果将在新总部“乔布斯剧院”举办秋季发布会。有分析人士认为，官方公布的邀请函上色块边界虚化的设计，以及“我们，家里见”的宣传语，或暗示本次发布将与增强现实有关。
+                </p>
+
+                <p class="text">
+                事实上，库克已经多次在多个场合深切的表达过对AR的看好，苹果也多次被爆组建专业团队，研发和收购相关专利，布局或有七年之久。今年6月的WWDC上，苹果终于憋出了用于程序员开发的测试版平台ARkit（正式版将随着面见大众）。
+                </p>
+            </div>
+        </div>
+
+        <!-- pro3 页面添加新闻功能 -->
+        <div class="con pro3">
+            <p class='tit'>三：页面添加新闻功能</p>
+            <ul class='ul_wrap clear'>
+                <li class='text'>最新动态</li>
+                <li class='box2'>
+                    <input class='box2_con'>
+                    <p class='box2_add'>添加</p>
+                    <ul class='box2_con_get'>
+                        <!-- <li></li> -->
+                    </ul>
+                </li>
+                <li class='box3'>+</li>
+            </ul>
+        </div>
+
+        <!-- pro4 QQ说说发表功能 -->
+        <div class="con pro4">
+            <div class="left">
+                <p class="tit">四-I：QQ说说发表-不带图像</p>
+                <input class="box">
+                <div class="sub clearfix">
+                    <img src="images/4-1.jpg" alt="" width="638" height="640">
+                    <div class="submi">提交</div>
+                </div>
+                <ul>
+                    <!-- <li>123</li> -->
+                </ul>
+            </div>
+
+            <div class='right'>
+                <p class="tit">四-II：QQ说说发表-带图像</p>
+                <div  class='wrap-box'>
+                    <input class='box-p'>
+                    <div class='clear'>
+                        <img src="images/4-2.jpg" alt="" width='38' height='38'>
+                        <button id='btn'>发 表</button>
+                    </div>
+                </div>
+                <ul id='box-ul'>
+                    <li class='clear'>
+                        <img src="images/4-3.jpg" alt="" width='38' height='38'>
+                        <span></span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- pro5 单边切换+循环切换 -->
+        <div class="con pro5">
+            <p class="tit">五：单边切换+循环切换</p>
+            <div class='wrap'>
+                <span>单边切换</span>
+                <span>循环切换</span>
+                <div class='box'>
+                    <ul>
+                        <li><img src="images/5-1.jpg" alt=""></li>
+                        <li><img src="images/5-2.jpg" alt=""></li>
+                        <li><img src="images/5-3.jpg" alt=""></li>
+                        <li><img src="images/5-4.jpg" alt=""></li>
+                        <li><img src="images/5-5.jpg" alt=""></li>
+                    </ul>
+                    <p class='top'></p>
+                    <p class='bot'></p>
+                    <b class='lef'> < </b>
+                    <b class='rig'> > </b>
+                </div>
+            </div>
+        </div>
+
+        <!-- pro6 简单图片轮播 -->
+        <div class="con pro6">
+            <p class="tit">六：简单图片轮播</p>
+            <div class='wrap'>
+                <div class='box'>
+                    <b></b>
+                    <p></p>
+                    <img src="" alt="">
+                </div>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- pro7 二级菜单下拉选项 -->
+        <div class="con pro7">
+            <p class="tit">七：二级菜单下拉选项</p>
+            <ul class='wrap'>
+                <li>
+                    <h3>同事</h3>
+                    <div>
+                        <p>王二</p>
+                        <p>张三</p>
+                        <p>李四</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>特别关心</h3>
+                    <div>
+                        <p>honey</p>
+                        <p>dear</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>我的好友</h3>
+                    <div>
+                        <p>巴拉</p>
+                        <p>米儿</p>
+                        <p>可爱</p>
+                        <p>米粒</p>
+                        <p>糯米</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- pro8 选项卡特效 -->
+        <div class="con pro8">
+            <p class="tit">八：选项卡特效</p>
+            <div class='wrap clear'>
+                <p>热门排行</p>
+                <p>美图速递</p>
+                <p>社区Top</p>
+                <div>
+                    <ul>
+                        <li><span>1</span><a href="">产后妈妈分享：成功祛除妊娠</a></li>
+                        <li><span>2</span><a href="">营养不足 你初老了吗</a></li>
+                        <li><span>3</span><a href="">儿童淘气不要急 父母巧应对</a></li>
+                        <li><span>4</span><a href="">孕妇产力不足 临产小诀窍</a></li>
+                        <li><span>5</span><a href="">新生儿脸色发黄 注意补充营养</a></li>
+                    </ul>
+                    <ul>
+                        <li><span>1</span><a href="">[重磅推荐]大量涉黄场所被清剿</a></li>
+                        <li><span>2</span><a href="">[高清大图]胡兵复古大片激情四射</a></li>
+                        <li><span>3</span><a href="">[活色生香]贝嫂内衣写真玉体横陈</a></li>
+                        <li><span>4</span><a href="">[高清大图]倪妮表情鬼马俏皮可爱</a></li>
+                        <li><span>5</span><a href="">[重磅推荐]选美文化 在繁华中落寞</a></li>
+                    </ul>
+                    <ul>
+                        <li><span>1</span><a href="">能遇见你就是我最大的幸福</a></li>
+                        <li><span>2</span><a href="">最伤身体的10个生活习惯，一定</a></li>
+                        <li><span>3</span><a href="">儿童淘气不要急 父母巧应对</a></li>
+                        <li><span>4</span><a href="">孕妇产力不足 临产小诀窍</a></li>
+                        <li><span>5</span><a href="">新生儿脸色发黄 注意补充营养</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- pro9 全选、反选、清空 -->
+        <div class="con pro9">
+            <p class="tit">九：全选、反选、清空</p>
+            <div class='wrap'>
+                <input type="checkbox" id='l1'><label for="l1">梨子</label>
+                <input type="checkbox" id='l2'><label for="l2">苹果</label>
+                <input type="checkbox" id='l3'><label for="l3">香蕉</label>
+                <input type="checkbox" id='l4'><label for="l4">葡萄</label>
+                <input type="checkbox" id='l5'><label for="l5">橘子</label>
+                <input type="checkbox" id='l6'><label for="l6">西瓜</label>
+                <div id='but'>
+                    <button>全选</button>
+                    <button>反选</button>
+                    <button>清空</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- pro10 全选和隔行变色 -->
+        <div class="con pro10">
+            <p class="tit">十：全选和隔行变色</p>
+            <div class='wrap'>
+                <ul>
+                    <li>选择1</li>
+                    <li>选择2</li>
+                    <li>选择3</li>
+                    <li>选择4</li>
+                    <li>选择5</li>
+                    <li>选择6</li>
+                    <li>选择7</li>
+                </ul>
+                <p>全选</p>
+            </div>
+        </div>
+
+        <!-- pro11 多层选项卡 -->
+        <div class="con pro11">
+            <p class="tit">十一：多层选项卡</p>
+            <div class='wrap'>
+                <img src="images/11-1.jpg" alt="">
+                <ul id='left'>
+                    <li>车</li>
+                    <li>美食</li>
+                    <li>美女</li>
+                    <li>风景</li>
+                </ul>
+                <p>
+                    <span class='bcspan'>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                </p>
+                <p>
+                    <span class='bcspan'>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                </p>
+                <p>
+                    <span class='bcspan'>1</span>
+                    <span>2</span>
+                </p>
+                <p>
+                    <span class='bcspan'>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- pro12 Animation星级评论 -->
+        <div class="con pro12">
+            <p class="tit">十二：Animation星级评论</p>
+            <div class='wrap'>
+                <p>星级评分</p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <b></b>
+            </div>
+        </div>
+
+        <!-- pro13 Animation 购物结算 -->
+        <div class="con pro13">
+             <p class="tit">十三：Animation 购物结算</p>
+                <div class='wrap'>
+                    <dl>
+                        <dt>商品</dt>
+                        <dd><img src="images/13-shop1.jpg" alt="" width='100'></dd>
+                        <dd><img src="images/13-shop2.jpg" alt="" width='100'></dd>
+                        <dd><img src="images/13-shop3.jpg" alt="" width='100'></dd>
+                        <dd><img src="images/13-shop4.jpg" alt="" width='100'></dd>
+                    </dl>
+                    <dl>
+                        <dt>单价</dt>
+                        <dd><i>2.5</i></dd>
+                        <dd><i>4</i></dd>
+                        <dd><i>6.5</i></dd>
+                        <dd><i>8</i></dd>
+                    </dl>
+                    <dl>
+                        <dt>数量</dt>
+                        <dd>
+                            <button class='less'>-</button>
+                            <p></p>
+                            <button class='add'>+</button>
+                        </dd>
+                        <dd><button class='less'>-</button><p></p><button class='add'>+</button></dd>
+                        <dd><button class='less'>-</button><p></p><button class='add'>+</button></dd>
+                        <dd><button class='less'>-</button><p></p><button class='add'>+</button></dd>
+                    </dl>
+                    <dl>
+                        <dt>小计</dt>
+                        <dd><b></b></dd>
+                        <dd><b></b></dd>
+                        <dd><b></b></dd>
+                        <dd><b></b></dd>
+                    </dl>
+                    <ul>
+                        <li>已选&nbsp;&nbsp;<span></span>&nbsp;&nbsp;个</li>
+                        <li>已选&nbsp;&nbsp;<span></span>&nbsp;&nbsp;¥</li>
+                    </ul>
+                </div>
+        </div>
+
+        <!-- pro14 Animation 文本替换 -->
+        <div class="con pro14">
+            <p class="tit">十四：Animation 文本替换</p>
+            <div class='wrap'>
+                <input type="text" placeholder='搜索内容'>
+                <button>搜索</button>
+                <input type="text" placeholder='替换内容'>
+                <button>替换</button>
+                <div id='p_con'>
+                    <p>
+                    张家界是湖南省辖地级市，原名大庸市，辖2个市辖区（永定区、武陵源区）、2个县（慈利县、桑植县）。位于湖南西北部，澧水中上游，属武陵山区腹地。
+                    </p>
+                    <p>
+                    张家界因旅游建市，是中国最重要的旅游城市之一，是湘鄂渝黔革命根据地的发源地和中心区域。
+                    </p>
+                    <p>
+                    1982年9月，张家界国家森林公园成为中国第一个国家森林公园。
+                    </p>
+                    <p>
+                    1988年8月，张家界武陵源风景名胜区被列入国家重点风景名胜区；1992年，由张家界国家森林公园等三大景区构成的武陵源风景名胜区被联合国教科文组织列入《世界自然遗产名录》；2004年2月，被列入全球首批《世界地质公园》；2007年，被列入中国首批国家5A级旅游景区。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- pro15 Animation 商品价格排序 -->
+        <div class="con pro15">
+            <p class="tit">十五：Animation 商品价格排序</p>
+            <div class='wrap'>
+                <ul class='clearfix' id='box'>
+                    <li>
+                        <img src="images/15-xh_img1.jpg" alt="">
+                        <p>紫色冷艳系列</p>
+                        <span>¥<em>70</em></span>
+                    </li>
+                    <li>
+                        <img src="images/15-xh_img2.jpg" alt="">
+                        <p>粉色浪漫系列玫瑰</p>
+                        <span>¥<em>500</em></span>
+                    </li>
+                    <li>
+                        <img src="images/15-xh_img3.jpg" alt="">
+                        <p>清淡优雅百年百合</p>
+                        <span>¥<em>200</em></span>
+                    </li>
+                    <li>
+                        <img src="images/15-xh_img4.jpg" alt="">
+                        <p>经典红色我的最爱</p>
+                        <span>¥<em>310</em></span>
+                    </li>
+                    <li>
+                        <img src="images/15-xh_img5.jpg" alt="">
+                        <p>豆沙红系列</p>
+                        <span>¥<em>400</em></span>
+                    </li>
+                    <li>
+                        <img src="images/15-xh_img6.jpg" alt="">
+                        <p>青春靓丽橘色</p>
+                        <span>¥<em>50</em></span>
+                    </li>
+                    <li>
+                        <img src="images/15-xh_img7.jpg" alt="">
+                        <p>艳红玫瑰浪漫之旅</p>
+                        <span>¥<em>900</em></span>
+                    </li>
+                    <li>
+                        <img src="images/15-xh_img8.jpg" alt="">
+                        <p>温馨康乃馨</p>
+                        <span>¥<em>160</em></span>
+                    </li>
+                </ul>
+                <div>
+                    <button>随机</button>
+                    <button>从低到高</button>
+                    <button>从高到底</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- pro16 Animation 倒计时 -->
+        <div class="con pro16">
+            <p class="tit">十六：Animation 倒计时</p>
+            <div>
+                页面在 <b>5</b>s 后跳转
+            </div>
+        </div>
+
+        <!-- pro17 Animation 点击向上向下滚动 -->
+        <div class="con pro17">
+            <p class="tit">十七：点击向上向下滚动</p>
+            <div class='wrap'>
+                <div id='box'>
+                    <img src="images/17-scroll1.png" alt="">
+                    <img src="images/17-scroll2.png" alt="">
+                    <img src="images/17-scroll3.png" alt="">
+                </div>
+                <p>上</p>
+                <p>下</p>
+            </div>
+
+        </div>
+
+        <!-- pro18 Animation 图片时针 -->
+        <div class="con pro18">
+            <p class="tit">十八：图片时针</p>
+            <div class='wrap'>
+                <ul>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li class='maohao'></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li class='maohao'></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- pro19 上下滚动图片时针 -->
+        <div class="con pro19">
+            <p class="tit">十九：上下滚动图片时针</p>
+            <div class='wrap'>
+                <ul id='box'>
+                    <li><img src="images/18-0.png" alt="" class='up'><img src="images/18-0.png" alt="" class='down'></li>
+                    <li><img src="images/18-0.png" alt="" class='up'><img src="images/18-0.png" alt="" class='down'></li>
+                    <li class='maohao'></li>
+                    <li><img src="images/18-0.png" alt="" class='up'><img src="images/18-0.png" alt="" class='down'></li>
+                    <li><img src="images/18-0.png" alt="" class='up'><img src="images/18-0.png" alt="" class='down'></li>
+                    <li class='maohao'></li>
+                    <li><img src="images/18-0.png" alt="" class='up'><img src="images/18-0.png" alt="" class='down'></li>
+                    <li><img src="images/18-0.png" alt="" class='up'><img src="images/18-0.png" alt="" class='down'></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- pro20 无缝滚动+左右点击+下方对应按钮+自动轮播 -->
+        <div class="con pro20">
+            <p class="tit">二十：无缝滚动+左右点击+下方对应按钮</p>
+            <div class="wrap">
+                <ul>
+                    <li><img src="images/20-1.jpg" alt=""></li>
+                    <li><img src="images/20-2.jpg" alt=""></li>
+                    <li><img src="images/20-3.jpg" alt=""></li>
+                    <li><img src="images/20-4.jpg" alt=""></li>
+                    <li><img src="images/20-5.jpg" alt=""></li>
+                    <li><img src="images/20-6.jpg" alt=""></li>
+                    <li><img src="images/20-1.jpg" alt=""></li>
+                </ul>
+                <span class='left'></span>
+                <span class='right'></span>
+                <div class='but'>
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- pro21 节点操作 -->
+        <div class="con pro21">
+            <p class="tit">二十一：节点操作</p>
+            <div class='wrap'>
+                <ul class='clearfix'>
+                    <li class='left'>
+                        <b>热门目的地 :</b>
+                        <p>马来西亚</p>
+                        <p>泰国</p>
+                        <p>三亚</p>
+                        <p>新西兰</p>
+                        <p>云南</p>
+                        <div></div>
+                    </li>
+                    <li class='right'>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- pro22 鼠标滚动缩放图片 -->
+        <div class="con pro22">
+            <p class="tit">二十二：鼠标滚动缩放图片</p>
+            <img src="images/22-mnls.jpg" alt="" width='900' height='500'>
+        </div>
+
+        <!-- pro23 拖动改变盒子大小 -->
+        <div class="con pro23">
+            <p class="tit">二十三：拖动改变盒子大小</p>
+            <div class='box'>
+                <span class='side left'></span>
+                <span class='side top'></span>
+                <span class='side right'></span>
+                <span class='side bottom'></span>
+                <span class='co co_l'></span>
+                <span class='co co_t'></span>
+                <span class='co co_r'></span>
+                <span class='co co_b'></span>
+            </div>
+        </div>
+
+        <!-- pro24 自定义滚动条 -->
+        <div class="con pro24">
+            <p class="tit">二十四：自定义滚动条</p>
+            <div class='box'>
+                <ul onselectstart='return false'>
+                    <li>
+                        <p>1、If you don't know what you want, you won't know when you've gotten it.</p>
+                        <div>知道自己想要的是什么，那么当你拥有了也会茫然不知。</div>
+                    </li>
+                    <li>
+                        <p>2、We all have stories we won't ever tell</p>
+                        <div>我们都有一些不会讲出来的故事。</div>
+                    </li>
+                    <li>
+                        <p>3、Hold the head of the lonely, put proud expression-brave say: I not bad at all. </p>
+                        <div>昂起孤单的头，摆着骄傲的表情，勇敢的说：我一点都不赖。</div>
+                    </li>
+                    <li>
+                        <p>4、Accept your life if you can't change it. Change your life if you can't accept it. </p>
+                        <div>如果你无法改变你的生活，就接受它。如果你接受不了你的生活，就改变它。</div>
+                    </li>
+                    <li>
+                        <p>5、There is a kind of sadness that a cat can't reach its tail.</p>
+                        <div>有一种悲伤是摸不着自己的尾巴。一点点语录网</div>
+                    </li>
+                    <li>
+                        <p>6、Life is a chain of moments of enjoyment;not only about survival.</p>
+                        <div>生活是一串串的快乐时光；我们不仅仅是为了生存而生存。</div>
+                    </li>
+                    <li>
+                        <p>7、Happiness isn't getting all you want. It's enjoying all you have. </p>
+                        <div>幸福不是得到你想要的一切，而是享受你所拥有的一切。</div>
+                    </li>
+                    <li>
+                        <p>8、Everyone is happy. But, your happiness, often in the eyes of others.</p>
+                        <div>每个人都是幸福的。只是，你的幸福，常常在别人眼里。</div>
+                    </li>
+                    <li>
+                        <p>9、Try your best,girls ! Women who don't try hard have two outcomes: endless flea market and outdoor market shopping.</p>
+                        <div>姑娘，努力吧！不努力的女人只有两种结果，穿不完的地摊货和逛不完的菜市场。</div>
+                    </li>
+                    <li>
+                        <p>10、Heard some things, obviously irrelevant, but also in the hearts of several bends Shui think of you.</p>
+                        <div>听到一些事，明明不相干的，也会在心中拐好几个弯想到你。</div>
+                    </li>
+                    <li>
+                        <p>11、Smiling face, not to blame. Leisurely, the heart, with you. Destined to allow life to change, only a hundred years later, the life of a flower.</p>
+                        <div>笑着面对，不去埋怨。悠然，随心，随性，随缘。注定让一生改变的，只在百年后，那一朵花开的时间</div>
+                    </li>
+                    <li>
+                        <p>12、Imagination is the highest kite one can fly. </p>
+                        <div>想象力是飞得最高的那盏风筝。</div>
+                    </li>
+                    <li>
+                        <p>13、If a guy really loves you, he won't need to take your shirt off to get a better view of your heart.</p>
+                        <div>如果一个男人真的爱你，他没必要非得把你的衣服除去，才能把你的心看得更清楚。</div>
+                    </li>
+                    <li>
+                        <p>14、We don't need to meet again for we are just passers by．To forget is the best commemoration for each other．</p>
+                        <div>很多人不需要再见，因为只是路过而已。遗忘就是我们给彼此最好的纪念。</div>
+                    </li>
+                    <li>
+                        <p>15、Save your heart for someone who cares.</p>
+                        <div>为了某个在乎你的人，请节约你的真心­。</div>
+                    </li>
+                    <li>
+                        <p>16、I promise I will be there for you when everyone else decides to give up on you.</p>
+                        <div>当别人都放弃你的时候，我保证我会支持你。</div>
+                    </li>
+                    <li>
+                        <p>17、The struggle you're in today is developing the strength you need for tomorrow. Don't give up.</p>
+                        <div>今天做的一切奋斗都是在为明天积蓄力量，所以别放弃！——致高考！！！</div>
+                    </li>
+                    <li>
+                        <p>18、Story eventually, i can only one man looked at the memory of the nicety lost.</p>
+                        <div>故事的最终，我只能一个人望着天空回忆那年遗失的美好。</div>
+                    </li>
+                    <li>
+                        <p>19、Never sacrifice who you are because someone has a problem with it. </p>
+                        <div>绝对不要因为某人的意见，就牺牲掉你自己的本性。</div>
+                    </li>
+                    <li>
+                        <p>20、Sometimes bad things happen, and there’s nothing you can do about it, so why worry?</p>
+                        <div>有时候，坏事发生了，你对此也无能为力，所以有什么好担心的呢。</div>
+                    </li>
+                </ul>
+                <span><i onselectstart='return false'></i></span>
+            </div>
+        </div>
+
+        <!-- pro25 拖拽加限定边界弹性运动 -->
+        <div class="con pro25">
+            <p class="tit">二十五：拖拽加限定边界弹性运动</p>
+            <div class='box'></div>
+        </div>
+
+        <!-- pro26 表单验证-->
+        <div class="con pro26">
+            <p class="tit">二十六：表单验证</p>
+            <div class="wrap">
+                <p>注册</p>
+                <div id="box">
+                    <div>
+                        <input type="text" name='text' placeholder="请输入用户名" class='name'>
+                        <span>不合法</span>
+                    </div>
+                    <div>
+                        <input type="password" name='password1' placeholder='请输入密码' class='pass1'>
+                        <span>不合法</span>
+                    </div>
+                    <div>
+                        <input type="password" name='password2' placeholder='请再次输入密码' class='pass2'>
+                        <span>不合法</span>
+                    </div>
+                    <div>
+                        <input type="text" name='tel' placeholder='请输入电话' class='tel'>
+                        <span>不合法</span>
+                    </div>
+                    <div>
+                        <input type="text" name='email' placeholder='请输入e-mail' class='email'>
+                        <span>不合法</span>
+                    </div>
+                    <button>注册</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- pro27 快递查询-->
+<!--         <div class="con pro27">
+    <p class="tit">二十七：快递查询</p>
+    <div class="wrap">
+        <ul>
+            <li>
+                公司名称：
+                <select name="" id="" size='1'>
+                    <option value="" selected='selected'>申通快递</option>
+                    <option value="">韵达快递</option>
+                    <option value="">圆通快递</option>
+                </select>
+            </li>
+            <li>
+                快递单号：
+                <input type="text"><input type="submit" value='查询'>
+            </li>
+        </ul>
+        <div class="detel">
+           <ul>
+                <li></li>
+            </ul>
+        </div>
+        <div class="inf">
+            <h4>申通快递</h4>
+            <div>官网地址：<a href="http://www.sto.cn/" target='_blank'>www.sto.cn</a></div>
+            <p>客服电话：95543</p>
+        </div>
+        <div class="inp">
+            <input type="submit" value='网点查询'>
+            <input type="submit" value='网上寄件'>
+        </div>
+        <span class='clearfix'>数据来源申通快递</span>
+    </div>
+</div> -->
+
+        <!-- pro27 百度搜索-->
+        <div class="con pro27">
+            <p class="tit">二十七：百度搜索</p>
+            <div class="wrap">
+                <div class="oimag">
+                    <img src="images/27-1.PNG" alt="" width='540' height='285'>
+                </div>
+                <div class="oinp">
+                    <input type="text">
+                    <i></i>
+                    <input type="submit" value='百度一下'>
+                </div>
+                <ul class="ulli">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div><!-- #wrap结束 -->
+        </div>
+
+        <!-- pro28 天气查询-->
+        <div class="con pro28">
+            <p class="tit">二十八：天气查询</p>
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" placeholder="请输入城市">
+                    <input type="submit" value='查询 '>
+                </div>
+                <div class="box">
+                    <h2> <今天详细天气> </h2>
+                    <div class='date_y'>日期：<span></span></div>
+                    <div class='temperature'>温度：<span></span></div>
+                    <div class='weather'>天气：<span></span></div>
+                    <div class='wind'>风力：<span></span></div>
+                    <div class='dressing_index'>舒适度：<span></span></div>
+                    <div class='dressing_advice'>建议穿着：<span></span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<script></script>
+
+<!-- 引入js文件 -->
+
+<script type="text/javascript" src="js/Composition_Part1.js"></script>
+<script type="text/javascript" src="js/animation_frame.js"></script>
+</body>
+</html>
